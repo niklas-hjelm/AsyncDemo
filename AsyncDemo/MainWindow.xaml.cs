@@ -67,7 +67,7 @@ namespace AsyncDemo
                 for (int i = 0; i < 10; i++)
                 {
                     result += i;
-                    Thread.Sleep(500);
+                    Thread.Sleep(200);
                 }
                 return result.ToString();
             });
